@@ -29,6 +29,8 @@
  */
 const countBits = (n=2) => {
     try {
+        console.log("========Counting bits solve========");
+
         let ans = [];
 
         for (let i = 0; i <= n; i++) {
@@ -42,7 +44,6 @@ const countBits = (n=2) => {
             }
             ans.push(count)
         }
-        console.log("========Counting bits solve========");
         console.log(ans);
         console.log("===================================");
     } catch (ex) {
